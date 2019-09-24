@@ -29,3 +29,5 @@ curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install gradle
 sdk install groovy
+
+cp -r ./zsh-functions $HOME/.oh-my-zsh/lib
