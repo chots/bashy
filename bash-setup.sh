@@ -14,7 +14,6 @@ brew install tree
 brew install git-secrets
 brew install pass
 brew install adr-tools
-brew install tgt/brewhouse/gardenia
 brew install bfg
 brew install git-lfs
 brew install nyancat
