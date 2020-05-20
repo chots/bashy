@@ -9,6 +9,12 @@ brew cask install iterm2
 brew cask install zsh
 brew cask install spotify
 brew cask install intellij-idea
+brew cask install sublime-text
+brew install gdub
+
+
+# setup sublime command
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
 brew install tree
 brew install git-secrets

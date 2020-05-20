@@ -12,7 +12,11 @@ alias scan='git secrets --scan --before'
 
 # Checks out a branch, or creates and checks it out if it doesn't exist
 co () {
-	git checkout -b "$1"
+    git checkout "$1" > /dev/null 2>&1
+    if [ $? != 0 ]
+    then
+        git checkout -b "$1"
+    fi
 }
 
 # Makes a commit without having to use -m or quotes
