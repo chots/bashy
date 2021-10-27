@@ -4,12 +4,12 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Brew stuff
-brew cask install google-chrome-beta
-brew cask install iterm2
-brew cask install zsh
-brew cask install spotify
-brew cask install intellij-idea
-brew cask install sublime-text
+brew install google-chrome-beta
+brew install iterm2
+brew install zsh
+brew install spotify
+brew install intellij-idea
+brew install sublime-text
 brew install gdub
 
 
